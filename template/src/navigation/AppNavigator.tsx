@@ -1,11 +1,10 @@
 import React from 'react';
 
+import AppMain from '@navigation/AppMain';
 function AppNavigator() {
-    let MainNavigator = null;
+    // let MainNavigator = null;
 
-    MainNavigator = require('@navigation/AppMain').default;
-
-    return <MainNavigator />;
+    return <AppMain />;
 }
 
 export default AppNavigator;

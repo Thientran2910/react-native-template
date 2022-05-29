@@ -3,12 +3,13 @@ import {createStackNavigator} from '@react-navigation/stack';
 // import {HeaderBackButtonProps} from '@react-navigation/elements';
 
 import {Screens, defaultNavigationOptions, AppMainParamList} from '@navigation';
+// import AppTab from '@navigation/AppTab';
 import AppTab from '@navigation/AppTab';
 
 // import HeaderLeftButton from '@navigation/components/HeaderLeftButton';
 // import Icon from '@components/elements/Icon';
 
-const Stack = createStackNavigator<AppMainParamList>();
+const Stack = createStackNavigator<any>();
 
 function AppMain() {
     return (
